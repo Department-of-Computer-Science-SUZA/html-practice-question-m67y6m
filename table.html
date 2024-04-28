@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Html Table</title>
+
+    </head>
+    <body>
+        <style>
+            td {
+                padding-right: 10px;
+            }
+            table, th, td {
+              border: 2px solid rgb(185, 183, 183);
+              border-collapse: collapse;
+              border-style: groove;
+            }
+            </style>
+        <center>
+        <table>
+                <th colspan="4" style="padding: 15px;">
+                 
+                Table Heading Cell Spaning 4 Columns
+
+                </th>
+            <tr>
+                <td>
+                    Normal Cell
+                </td>
+                <td  colspan="2">
+                    Cell Spanning 2 Columns
+                </td>
+                <td>
+                    Normal Cell
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3" style="background-color: rgb(185, 183, 183);">
+                    Cell Spaning 3 <br>
+                    rows with a gray <br>
+                    (US spelling) <br>
+                    background                    
+                </td>
+                <td>
+                    Normal Cell
+                </td>
+                <td>
+                    Normal Cell
+                </td>
+                <td>
+                    Normal Cell
+                </td>
+                
+            </tr>
+
+            <tr>
+                <td>
+                    Normal Cell
+                </td>
+                
+                <td colspan="2"rowspan="2">
+                    Cell spanning 2 rows and 2<br>
+                     columns
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Normal Cell
+                </td>
+                
+            </tr>
+        </table>
+    </center>
+    </body>
+</html> 
